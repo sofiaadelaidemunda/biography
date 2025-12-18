@@ -21,8 +21,18 @@ h2 {
     margin-top: 40px;            /* extra space so it doesn’t crowd header */
     margin-left: 30px;           /* slight indent */
     margin-bottom: 15px;
-    text-align: left;
+    text-align: center;
 }
+
+h3 {
+    color: black;              /* dark red for contrast */
+    font-family: Georgia, serif;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 50px;           /* slightly deeper indent */
+    margin-bottom: 10px;
+    text-align: left;
+
 
 p {
     color: #333333;              /* softer black */
