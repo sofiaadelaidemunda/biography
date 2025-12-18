@@ -6,12 +6,22 @@ header {
     box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* subtle shadow for depth */
 }
 
-/* Headings */
-h1, h2 {
-    color: #fdfdfd;                /* off-white for softer contrast */
-    font-family: 'Georgia', serif; /* elegant serif font */
-    margin: 0;                     /* remove default margin */
-    letter-spacing: 2px;           /* spacing between letters for style */
+/* Main title (h1) */
+h1 {
+    color: #FFD700;              /* golden yellow */
+    font-family: Georgia, serif;
+    text-align: center;
+    font-size: 28px;
+    margin: 0;
+}
+
+/* Subheadings (h2) */
+h2 {
+    color: #87CEEB;              /* sky blue */
+    font-family: Georgia, serif;
+    text-align: left;
+    font-size: 22px;
+    margin-top: 20px;
 }
 
 /* Paragraphs */
