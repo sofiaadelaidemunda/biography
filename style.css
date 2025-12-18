@@ -24,6 +24,17 @@ h2 {
     text-align: left;
 }
 
+h3 {
+    color: lightblue;             
+    font-family: Georgia, serif;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-left: 50px;     
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+
 p {
     color: black;    
     font-family: Tahoma, sans-serif;
