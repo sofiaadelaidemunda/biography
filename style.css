@@ -4,3 +4,20 @@ h1 {
   text-align: center;          /* Centered */
   margin-bottom: 30px;         /* Extra space after title */
 }
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 16pt;
+  color: darkred;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: Tahoma, sans-serif; /* Tahoma font */
+  font-size: 12pt;                 /* Size 12 */
+  text-align: justify;             /* Justified alignment */
+  line-height: 1.0;                /* Single-spaced */
+  text-indent: 2em;                /* Indentation at start of paragraph */
+  margin-bottom: 20px;             /* Double spacing between paragraphs */
+}
