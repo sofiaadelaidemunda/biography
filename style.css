@@ -1,5 +1,5 @@
 header {
-    background-color: #002147;   /* deep navy */
+    background-color: #002147;
     padding: 30px 0;
     height: 120px;
     text-align: center;
@@ -7,7 +7,7 @@ header {
 }
 
 h1 {
-    color: #FFD700;              /* golden yellow */
+    color: #FFD700;
     font-family: Georgia, serif;
     font-size: 28px;
     margin: 0;
@@ -15,27 +15,17 @@ h1 {
 }
 
 h2 {
-    color: #87CEEB;              /* sky blue */
-    font-family: Georgia, serif;
-    font-size: 22px;
-    margin-top: 40px;            /* extra space so it doesn’t crowd header */
-    margin-left: 30px;           /* slight indent */
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-h3 {
-    color: black;              /* dark red for contrast */
+    color: black;        
     font-family: Georgia, serif;
     font-size: 18px;
     margin-top: 25px;
-    margin-left: 50px;           /* slightly deeper indent */
+    margin-left: 50px;      
     margin-bottom: 10px;
     text-align: left;
-
+}
 
 p {
-    color: #333333;              /* softer black */
+    color: black;    
     font-family: Tahoma, sans-serif;
     font-size: 15px;
     text-align: justify;
@@ -45,7 +35,7 @@ p {
 }
 
 body {
-    background-color: #f4f9f9;   /* light gray-blue */
+    background-color: #f4f9f9; 
     margin: 0;
     padding: 0;
 }
