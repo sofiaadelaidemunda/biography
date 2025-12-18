@@ -25,6 +25,16 @@ h2 {
     margin-top: 40px;     /* space above h2 */
     margin-bottom: 15px;  /* space below h2 */
     margin-left: 30px;    /* indent from the left */
+    text-align: center;
+}
+
+h3{
+    font-family: Georgia, serif;
+    font-size: 22px;
+    color: #2E8B57;       /* sea green or any color you like */
+    margin-top: 40px;     /* space above h2 */
+    margin-bottom: 15px;  /* space below h2 */
+    margin-left: 30px;    /* indent from the left */
     text-align: left;
 }
 
