@@ -1,0 +1,6 @@
+h1 {
+  font-family: Georgia, serif; /* Georgia font */
+  font-size: 18pt;             /* Size 18 */
+  text-align: center;          /* Centered */
+  margin-bottom: 30px;         /* Extra space after title */
+}
