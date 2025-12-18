@@ -1,24 +1,33 @@
-h1,
-h2 {
-    color: white;
-    font-family: Georgia;
-    text-align: left;
-}
-
-p {
-    color: black;
-    font-family: Tahoma;
-    font-size: 16px;
-    text-align: justify;
-}
-
+/* Header styling */
 header {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    height: 100px;
-    background-color: #002147;
+    padding: 30px 0;               /* balanced vertical padding */
+    background: linear-gradient(90deg, #002147, #004080); /* smooth gradient */
+    text-align: center;            /* center the header content */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* subtle shadow for depth */
 }
 
+/* Headings */
+h1, h2 {
+    color: #fdfdfd;                /* off-white for softer contrast */
+    font-family: 'Georgia', serif; /* elegant serif font */
+    margin: 0;                     /* remove default margin */
+    letter-spacing: 2px;           /* spacing between letters for style */
+}
+
+/* Paragraphs */
+p {
+    color: #333;                   /* softer black for readability */
+    font-family: 'Tahoma', sans-serif;
+    font-size: 15px;               /* slightly smaller for balance */
+    text-align: justify;
+    line-height: 1.6;              /* more comfortable line spacing */
+    margin-bottom: 20px;           /* space between paragraphs */
+    text-indent: 2em;              /* indent first line */
+}
+
+/* Body background */
 body {
-    background-color: #c6f3f8;
+    background-color: #f0f8ff;     /* light pastel blue (softer than cyan) */
+    margin: 0;
+    padding: 0;
 }
