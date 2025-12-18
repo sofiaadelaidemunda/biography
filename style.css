@@ -1,43 +1,47 @@
 /* Header styling */
 header {
+    background: linear-gradient(90deg, #1a3c40, #145374); /* teal-to-navy gradient */
     padding: 30px 0;               /* balanced vertical padding */
-    background: linear-gradient(90deg, #002147, #004080); /* smooth gradient */
-    text-align: center;            /* center the header content */
-    box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* subtle shadow for depth */
-}
-
-/* Main title (h1) */
-h1 {
-    color: #FFD700;              /* golden yellow */
-    font-family: Georgia, serif;
+    height: 120px;                 /* slightly taller header */
     text-align: center;
-    font-size: 28px;
-    margin: 0;
+    color: #fdfdfd;                /* off-white text */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.25); /* subtle shadow for depth */
 }
 
-/* Subheadings (h2) */
-h2 {
-    color: #87CEEB;              /* sky blue */
+/* Main title */
+h1 {
     font-family: Georgia, serif;
-    text-align: left;
+    font-size: 28px;
+    color: #FFD700;                /* golden yellow for contrast */
+    margin: 0;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+/* Subheadings */
+h2 {
+    font-family: Georgia, serif;
     font-size: 22px;
-    margin-top: 20px;
+    color: #2E8B57;                /* sea green for freshness */
+    margin-top: 40px;              /* extra space above h2 */
+    margin-bottom: 15px;           /* space below h2 */
+    text-align: left;
 }
 
 /* Paragraphs */
 p {
     color: #333;                   /* softer black for readability */
-    font-family: 'Tahoma', sans-serif;
-    font-size: 15px;               /* slightly smaller for balance */
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
     text-align: justify;
-    line-height: 1.6;              /* more comfortable line spacing */
-    margin-bottom: 20px;           /* space between paragraphs */
+    line-height: 1.6;              /* comfortable line spacing */
     text-indent: 2em;              /* indent first line */
+    margin-bottom: 25px;           /* clear separation between paragraphs */
 }
 
 /* Body background */
 body {
-    background-color: #f0f8ff;     /* light pastel blue (softer than cyan) */
+    background-color: #f4f9f9;     /* very light teal-gray background */
     margin: 0;
     padding: 0;
 }
