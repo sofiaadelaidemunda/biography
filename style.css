@@ -1,14 +1,24 @@
-header {
-  background-color: #002147;   /* deep navy blue */
-  height: 100px;               /* fixed header height */
-  padding-top: 40px;           /* space above text */
-  padding-bottom: 40px;        /* space below text */
-  text-align: center;          /* center the text horizontally */
-  color: white;                /* white text for contrast */
+h1,
+h2 {
+    color: red;
+    font-family: Georgia;
+    text-align: left;
 }
 
-header h1 {
-  font-family: Georgia, serif; /* Georgia font for title */
-  font-size: 24pt;             /* larger font size */
-  margin: 0;                   /* remove default margin */
+p {
+    color: black;
+    font-family: Tahoma;
+    font-size: 16px;
+    text-align: justify;
+}
+
+header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    height: 100px;
+    background-color: #002147;
+}
+
+body {
+    background-color: #c6f3f8;
 }
