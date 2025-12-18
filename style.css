@@ -1,36 +1,14 @@
-/* Title formatting */
-h1 {
-  font-family: Georgia, serif; /* Georgia font */
-  font-size: 18pt;             /* Size 18 */
-  text-align: center;          /* Centered */
-  margin-bottom: 30px;         /* Extra space after title */
-  color: darkblue;             /* Dark blue text */
-}
-
-/* Subheadings */
-h2 {
-  font-family: Georgia, serif;
-  font-size: 16pt;
-  color: darkred;
-  margin-top: 40px;
-  margin-bottom: 10px;
-}
-
-/* Paragraph formatting */
-p {
-  font-family: Tahoma, sans-serif; /* Tahoma font */
-  font-size: 12pt;                 /* Size 12 */
-  text-align: justify;             /* Justified alignment */
-  line-height: 1.0;                /* Single-spaced */
-  text-indent: 2em;                /* Indentation at start of paragraph */
-  margin-bottom: 20px;             /* Double spacing between paragraphs */
-}
-
 header {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  height: 100px;
-  background-color: #002147; /* deep navy blue */
-  text-align: center;        /* center the text inside */
-  color: white;              /* make text stand out against dark background */
+  background-color: #002147;   /* deep navy blue */
+  height: 100px;               /* fixed header height */
+  padding-top: 40px;           /* space above text */
+  padding-bottom: 40px;        /* space below text */
+  text-align: center;          /* center the text horizontally */
+  color: white;                /* white text for contrast */
+}
+
+header h1 {
+  font-family: Georgia, serif; /* Georgia font for title */
+  font-size: 24pt;             /* larger font size */
+  margin: 0;                   /* remove default margin */
 }
